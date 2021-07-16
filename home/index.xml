@@ -38,13 +38,11 @@
     
     <item>
       <title>about</title>
-      <link>https://z0ngqing.github.io/home/about/</link>
+      <link>https://jinyangguo.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://z0ngqing.github.io/home/about/</guid>
-      <description>I am a Boya Assistant Professor in the Department of Computer Science, Peking University.
-Before joining Peking University in September 2017, I was a postdoc in the Department of Computer Science and Engineering, Pennsylvania State University. I received the PhD degree from the School of Computer Science and Engineering, Nanyang Technological University in April 2014, master and bachelor degrees from Southeast University.
-My research interests fall at the intersection of distributed systems, multi-agent reinforcement learning, and artificial intelligence, and I currently focus on</description>
+      <guid>https://jinyangguo.github.io/home/about/</guid>
+      <description>I am a Ph.D. student of [CVLab](https://usyd-cvlab.github.io/) at [School of Electrical and Information Engineering](https://sydney.edu.au/engineering/about/school-of-electrical-and-information-engineering.html), [The University of Sydney](https://sydney.edu.au/), supervised by [Prof. Dong Xu](https://sydney.edu.au/engineering/people/dong.xu.php) and [Prof. Wanli Ouyang](https://wlouyang.github.io/). Before that, I received my B.Eng Degree (Hons1) from [School of Electrical and Telecommunication](https://www.engineering.unsw.edu.au/electrical-engineering/), [The University of New South Wales](https://www.unsw.edu.au/), Australia. My undergraduate research supervisor was [Prof. John Fletcher](https://www.engineering.unsw.edu.au/electrical-engineering/professor-john-fletcher). My research interests lie in deep learning and computer vision. Specifically, I focus on CNN model compression and acceleration. You can find my CV here.
     </item>
     
   </channel>
