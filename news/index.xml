@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Zongqing&#39;s Homepage</title>
+    <link>https://z0ngqing.github.io/news/</link>
+    <description>Recent content in News on Zongqing&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Zongqing Lu</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 10:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://z0ngqing.github.io/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>One paper accepted at ICLR&#39;20</title>
+      <link>https://z0ngqing.github.io/news/iclr20/</link>
+      <pubDate>Fri, 20 Dec 2019 10:00:00 +0800</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/iclr20/</guid>
+      <description>Our paper &amp;ldquo;Graph Convolutional Reinforcement Learning&amp;rdquo; was accepted at ICLR&amp;rsquo;20. Congratulations to Jiechuan Jiang.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at TON</title>
+      <link>https://z0ngqing.github.io/news/ton19-netvision/</link>
+      <pubDate>Mon, 18 Nov 2019 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/ton19-netvision/</guid>
+      <description>Our paper &amp;ldquo;NetVision: On-demand Video Processing in Wireless Networks&amp;rdquo; was accepted at IEEE/ACM Transactions on Networking.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at AAAI&#39;20</title>
+      <link>https://z0ngqing.github.io/news/aaai20/</link>
+      <pubDate>Tue, 12 Nov 2019 01:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/aaai20/</guid>
+      <description>Our paper &amp;ldquo;Generative Exploration and Exploitation&amp;rdquo; was accepted at AAAI&amp;rsquo;20. Congratulations to Jiechuan Jiang.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at TMC</title>
+      <link>https://z0ngqing.github.io/news/tmc19-augur/</link>
+      <pubDate>Wed, 09 Oct 2019 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/tmc19-augur/</guid>
+      <description>Our paper &amp;ldquo;Augur: Modeling the Resource Requirements of ConvNets on Mobile Devices&amp;rdquo; was accepted at IEEE Transactions on Mobile Computing.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at NIPS&#39;19</title>
+      <link>https://z0ngqing.github.io/news/nips19/</link>
+      <pubDate>Thu, 05 Sep 2019 09:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/nips19/</guid>
+      <description>Our paper &amp;ldquo;Learning Fairness in Multi-Agent Systems&amp;rdquo; was accepted at NIPS&amp;rsquo;19. Congratulations to Jiechuan Jiang.</description>
+    </item>
+    
+    <item>
+      <title>GENE accepted at ERL&#39;19 as a Spotlight Talk</title>
+      <link>https://z0ngqing.github.io/news/erl19/</link>
+      <pubDate>Mon, 27 May 2019 09:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/erl19/</guid>
+      <description>Our paper &amp;ldquo;Generative Exploration and Exploitation&amp;rdquo; was accepted at ICML&amp;rsquo;19 Workshop on Exploration in Reinforcement Learning (ERL&amp;rsquo;19) as a Spotlight Talk.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at NIPS&#39;18</title>
+      <link>https://z0ngqing.github.io/news/nips18/</link>
+      <pubDate>Wed, 05 Sep 2018 09:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/nips18/</guid>
+      <description>Our paper &amp;ldquo;Learning Attentional Communication for Multiagent Cooperation&amp;rdquo; was accepted at NIPS&amp;rsquo;18. Congratulations to Jiechuan Jiang.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at TMC</title>
+      <link>https://z0ngqing.github.io/news/tmc18-crowdvision/</link>
+      <pubDate>Fri, 27 Jul 2018 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/tmc18-crowdvision/</guid>
+      <description>Our paper &amp;ldquo;CrowdVision: A Computing Platform for Video Crowdprocessing Using Deep Learning&amp;rdquo; was accepted at IEEE Transactions on Mobile Computing.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at INFOCOM&#39;18</title>
+      <link>https://z0ngqing.github.io/news/infocom18/</link>
+      <pubDate>Tue, 28 Nov 2017 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/infocom18/</guid>
+      <description>Our paper &amp;ldquo;A Computing Platform for Video Crowdprocessing Using Deep Learning&amp;rdquo; was accepted at the IEEE International Conference on Computer Communications (INFOCOM) 2018.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at TON</title>
+      <link>https://z0ngqing.github.io/news/ton17/</link>
+      <pubDate>Thu, 03 Aug 2017 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/ton17/</guid>
+      <description>Our paper &amp;ldquo;Cooperative Data Offload in Opportunistic Networks: From Mobile Devices to Infrastructure&amp;rdquo; was accepted at IEEE/ACM Transactions on Networking.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at MM&#39;17</title>
+      <link>https://z0ngqing.github.io/news/mm17/</link>
+      <pubDate>Wed, 12 Jul 2017 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/mm17/</guid>
+      <description>Our paper &amp;ldquo;Modeling the Resource Requirements of Convolutional Neural Networks on Mobile Devices&amp;rdquo; was accepted at the ACM International Conference on Multimedia (MM) 2017.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at TMC</title>
+      <link>https://z0ngqing.github.io/news/tmc17/</link>
+      <pubDate>Sun, 09 Apr 2017 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/tmc17/</guid>
+      <description>Our paper &amp;ldquo;TeamPhone: Networking Smartphones for Disaster Recovery&amp;rdquo; was accepted at IEEE Transactions on Mobile Computing.</description>
+    </item>
+    
+    <item>
+      <title>One paper accepted at ICNP&#39;16</title>
+      <link>https://z0ngqing.github.io/news/icnp16/</link>
+      <pubDate>Wed, 17 Aug 2016 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/icnp16/</guid>
+      <description>Our paper &amp;ldquo;On-demand Video Processing in Wireless Networks&amp;rdquo; was accepted at the IEEE International Conference on Network Protocols (ICNP), 2016.</description>
+    </item>
+    
+    <item>
+      <title>Summer Research at Army Research Laboratory</title>
+      <link>https://z0ngqing.github.io/news/arl16/</link>
+      <pubDate>Thu, 04 Aug 2016 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/arl16/</guid>
+      <description>I spent this summer at Army Research Laboratory to build an emulation environment for deep learning based video processing in large-scale wireless networks.</description>
+    </item>
+    
+    <item>
+      <title>Best-in-Session Presentation Award at INFOCOM&#39;16</title>
+      <link>https://z0ngqing.github.io/news/infocom16-talk/</link>
+      <pubDate>Sat, 30 Apr 2016 18:26:27 -0400</pubDate>
+      
+      <guid>https://z0ngqing.github.io/news/infocom16-talk/</guid>
+      <description>My talk &amp;ldquo;Cooperative Data Offloading in Opportunistic Mobile Networks&amp;rdquo; won the Best-in-Session Presentation Award in the technical session of Data Offloading at INFOCOM&amp;rsquo;16.</description>
+    </item>
+    
+  </channel>
+</rss>
