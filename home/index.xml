@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Zongqing&#39;s Homepage</title>
-    <link>https://z0ngqing.github.io/home/</link>
-    <description>Recent content in Homes on Zongqing&#39;s Homepage</description>
+    <title>Homes on Jinyang Guo&#39;s Homepage</title>
+    <link>https://jinyangguo.github.io/home/</link>
+    <description>Recent content in Homes on Jinyang Guo&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Zongqing Lu</copyright>
+    <copyright>&amp;copy; 2018 Jinyang Guo</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://z0ngqing.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jinyangguo.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>teaching</title>
-      <link>https://z0ngqing.github.io/home/teaching/</link>
+      <link>https://jinyangguo.github.io/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://z0ngqing.github.io/home/teaching/</guid>
+      <guid>https://jinyangguo.github.io/home/teaching/</guid>
       <description> Undergraduate Courses  Algorithms, Spring 2019, Spring 2020 Data Structures and Algorithms, Spring 2018 Introduction to Computer Systems, Fall 2017  Gradudate Courses  Deep RL and Multi-Agent RL, Spring 2020  </description>
     </item>
     
     <item>
       <title>Services</title>
-      <link>https://z0ngqing.github.io/home/service/</link>
+      <link>https://jinyangguo.github.io/home/service/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://z0ngqing.github.io/home/service/</guid>
+      <guid>https://jinyangguo.github.io/home/service/</guid>
       <description> Technical Program Committee Member  INFOCOM 2016 2019 2020
  IJCAI 2020
  AAMAS 2020
