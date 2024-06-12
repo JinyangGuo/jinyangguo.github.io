@@ -1,0 +1,223 @@
+html, body {
+  height: 100%;
+  width: 100%;  
+  margin: auto;
+  padding: 0;
+}
+
+.ow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.tabnums {
+  font-variant-numeric: tabular-nums;
+}
+.h8, h8{
+  font-size: 10px;
+}
+
+.half-line {
+  line-height: 50em;
+}
+
+.half-line-small {
+  line-height: 15em;
+}
+
+img.perc {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-group{
+  width: 100%;
+}
+
+.div-map {
+  display: none;
+  height: 90%;
+  margin-top:20px;
+}
+
+#div-us{
+  display: block;
+}
+
+div.scroll {  
+  width: 100%;
+  height: 600px;
+  overflow: auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.map{
+    width: 100%;
+    height: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*.chart-container {
+  float: center;
+  width: 750px;
+  height: 450px;
+  margin: auto;
+}
+*/
+#igraph_death{
+  border:none;
+  height:1300px;
+  width: 90%;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+  #igraph_death{
+    border:none;
+    height:1300px;
+    width: 120%;
+  }
+
+  .chart-container {
+    float: center;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+  }
+  .map{
+    width: 100%;
+    height: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #gmap {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+}
+.summary{
+	font-size: 3;
+	color: #800000;
+}
+.publisher {
+  font-size: 3;
+  color: #2F05A0; /*#a26895;#fd31f0*;D35FB7*/
+  font-style: italic;
+}
+.publish-type{
+  font-size: 3;
+  color: #DC3220;
+}
+.paper-title {
+  font-size: 3;
+  font-weight: bold;
+}
+.jvectormap-legend-title {
+  font-size: 12px;
+}
+
+.jvectormap-legend .jvectormap-legend-tick-sample {
+  height: 20px;
+}
+
+#gmap {
+  width: 100%;
+  height: 80%;
+  margin: auto;
+}
+
+h2{
+  font-size: 20pt;
+}
+
+.navbar-brand {
+  font-size: 12pt;
+}
+
+.card-img-top {
+  width: 100%;
+  padding: 20px;
+}
+
+.homepage{
+  height: 40px;
+}
+
+a {
+  color:#1C75FF; /*1E88E5*/
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 150px;
+  right: 25px;
+  display: none;
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.content-normal {
+  padding: 0 18px;
+  background-color: #f1f1f1;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    background-color: #EBECE4; 
+}
+.abstract {
+    background-color: #e4ebec;
+}
+*:before,
+*:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+}
