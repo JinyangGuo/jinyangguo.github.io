@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<meta name="Description"
+		content="I am an assistant professor at Beihang University.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script async="" src="./static/analytics.js"></script>
+  <script src="./static/jquery-3.2.1.slim.min.js"></script>
+  <script src="./static/popper.min.js"></script>
+  <link rel="stylesheet" href="./static/bootstrap.min.css">
+  <script src="./static/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./static/site.css">
+  <link href="./static/stylesheet.css" rel="stylesheet" type="text/css">
+  	<link rel="icon" type="image/png" href="./static/buaa_icon.jpg">
+
+  <script src="./static/polyfill.min.js"></script>
+  <script type="text/javascript" id="MathJax-script" async="" src="./static/tex-mml-chtml.js"></script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true,
+        processEnvironments: true,
+        processRefs: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text'
+      }
+    };
+  </script>
+
+
+  <title>Aishan Liu | Beihang</title>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-54048675-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <style type="text/css">
+    .CtxtMenu_InfoClose {
+      top: .2em;
+      right: .2em;
+    }
+
+    .CtxtMenu_InfoContent {
+      overflow: auto;
+      text-align: left;
+      font-size: 80%;
+      padding: .4em .6em;
+      border: 1px inset;
+      margin: 1em 0px;
+      max-height: 20em;
+      max-width: 30em;
+      background-color: #EEEEEE;
+      white-space: normal;
+    }
+
+    .CtxtMenu_Info.CtxtMenu_MousePost {
+      outline: none;
+    }
+
+    .CtxtMenu_Info {
+      position: fixed;
+      left: 50%;
+      width: auto;
+      text-align: center;
+      border: 3px outset;
+      padding: 1em 2em;
+      background-color: #DDDDDD;
+      color: black;
+      cursor: default;
+      font-family: message-box;
+      font-size: 120%;
+      font-style: normal;
+      text-indent: 0;
+      text-transform: none;
+      line-height: normal;
+      letter-spacing: normal;
+      word-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      float: none;
+      z-index: 201;
+      border-radius: 15px;
+      /* Opera 10.5 and IE9 */
+      -webkit-border-radius: 15px;
+      /* Safari and Chrome */
+      -moz-border-radius: 15px;
+      /* Firefox */
+      -khtml-border-radius: 15px;
+      /* Konqueror */
+      box-shadow: 0px 10px 20px #808080;
+      /* Opera 10.5 and IE9 */
+      -webkit-box-shadow: 0px 10px 20px #808080;
+      /* Safari 3 & Chrome */
+      -moz-box-shadow: 0px 10px 20px #808080;
+      /* Forefox 3.5 */
+      -khtml-box-shadow: 0px 10px 20px #808080;
+      /* Konqueror */
+      filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color="gray", Positive="true");
+      /* IE */
+    }
+  </style>
+  <style type="text/css">
+    .CtxtMenu_MenuClose {
+      position: absolute;
+      cursor: pointer;
+      display: inline-block;
+      border: 2px solid #AAA;
+      border-radius: 18px;
+      -webkit-border-radius: 18px;
+      /* Safari and Chrome */
+      -moz-border-radius: 18px;
+      /* Firefox */
+      -khtml-border-radius: 18px;
+      /* Konqueror */
+      font-family: "Courier New", Courier;
+      font-size: 24px;
+      color: #F0F0F0
+    }
+
+    .CtxtMenu_MenuClose span {
+      display: block;
+      background-color: #AAA;
+      border: 1.5px solid;
+      border-radius: 18px;
+      -webkit-border-radius: 18px;
+      /* Safari and Chrome */
+      -moz-border-radius: 18px;
+      /* Firefox */
+      -khtml-border-radius: 18px;
+      /* Konqueror */
+      line-height: 0;
+      padding: 8px 0 6px
+        /* may need to be browser-specific */
+    }
+
+    .CtxtMenu_MenuClose:hover {
+      color: white !important;
+      border: 2px solid #CCC !important
+    }
+
+    .CtxtMenu_MenuClose:hover span {
+      background-color: #CCC !important
+    }
+
+    .CtxtMenu_MenuClose:hover:focus {
+      outline: none
+    }
+  </style>
+  <style type="text/css">
+    .CtxtMenu_Menu {
+      position: absolute;
+      background-color: white;
+      color: black;
+      width: auto;
+      padding: 5px 0px;
+      border: 1px solid #CCCCCC;
+      margin: 0;
+      cursor: default;
+      font: menu;
+      text-align: left;
+      text-indent: 0;
+      text-transform: none;
+      line-height: normal;
+      letter-spacing: normal;
+      word-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      float: none;
+      z-index: 201;
+      border-radius: 5px;
+      /* Opera 10.5 and IE9 */
+      -webkit-border-radius: 5px;
+      /* Safari and Chrome */
+      -moz-border-radius: 5px;
+      /* Firefox */
+      -khtml-border-radius: 5px;
+      /* Konqueror */
+      box-shadow: 0px 10px 20px #808080;
+      /* Opera 10.5 and IE9 */
+      -webkit-box-shadow: 0px 10px 20px #808080;
+      /* Safari 3 & Chrome */
+      -moz-box-shadow: 0px 10px 20px #808080;
+      /* Forefox 3.5 */
+      -khtml-box-shadow: 0px 10px 20px #808080;
+      /* Konqueror */
+    }
+
+    .CtxtMenu_MenuItem {
+      padding: 1px 2em;
+      background: transparent;
+    }
+
+    .CtxtMenu_MenuArrow {
+      position: absolute;
+      right: .5em;
+      padding-top: .25em;
+      color: #666666;
+      font-family: null;
+      font-size: .75em
+    }
+
+    .CtxtMenu_MenuActive .CtxtMenu_MenuArrow {
+      color: white
+    }
+
+    .CtxtMenu_MenuArrow.CtxtMenu_RTL {
+      left: .5em;
+      right: auto
+    }
+
+    .CtxtMenu_MenuCheck {
+      position: absolute;
+      left: .7em;
+      font-family: null
+    }
+
+    .CtxtMenu_MenuCheck.CtxtMenu_RTL {
+      right: .7em;
+      left: auto
+    }
+
+    .CtxtMenu_MenuRadioCheck {
+      position: absolute;
+      left: .7em;
+    }
+
+    .CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {
+      right: .7em;
+      left: auto
+    }
+
+    .CtxtMenu_MenuInputBox {
+      padding-left: 1em;
+      right: .5em;
+      color: #666666;
+      font-family: null;
+    }
+
+    .CtxtMenu_MenuInputBox.CtxtMenu_RTL {
+      left: .1em;
+    }
+
+    .CtxtMenu_MenuComboBox {
+      left: .1em;
+      padding-bottom: .5em;
+    }
+
+    .CtxtMenu_MenuSlider {
+      left: .1em;
+    }
+
+    .CtxtMenu_SliderValue {
+      position: absolute;
+      right: .1em;
+      padding-top: .25em;
+      color: #333333;
+      font-size: .75em
+    }
+
+    .CtxtMenu_SliderBar {
+      outline: none;
+      background: #d3d3d3
+    }
+
+    .CtxtMenu_MenuLabel {
+      padding: 1px 2em 3px 1.33em;
+      font-style: italic
+    }
+
+    .CtxtMenu_MenuRule {
+      border-top: 1px solid #DDDDDD;
+      margin: 4px 3px;
+    }
+
+    .CtxtMenu_MenuDisabled {
+      color: GrayText
+    }
+
+    .CtxtMenu_MenuActive {
+      background-color: #606872;
+      color: white;
+    }
+
+    .CtxtMenu_MenuDisabled:focus {
+      background-color: #E8E8E8
+    }
+
+    .CtxtMenu_MenuLabel:focus {
+      background-color: #E8E8E8
+    }
+
+    .CtxtMenu_ContextMenu:focus {
+      outline: none
+    }
+
+    .CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {
+      outline: none
+    }
+
+    .CtxtMenu_SelectionMenu {
+      position: relative;
+      float: left;
+      border-bottom: none;
+      -webkit-box-shadow: none;
+      -webkit-border-radius: 0px;
+    }
+
+    .CtxtMenu_SelectionItem {
+      padding-right: 1em;
+    }
+
+    .CtxtMenu_Selection {
+      right: 40%;
+      width: 50%;
+    }
+
+    .CtxtMenu_SelectionBox {
+      padding: 0em;
+      max-height: 20em;
+      max-width: none;
+      background-color: #FFFFFF;
+    }
+
+    .CtxtMenu_SelectionDivider {
+      clear: both;
+      border-top: 2px solid #000000;
+    }
+
+    .CtxtMenu_Menu .CtxtMenu_MenuClose {
+      top: -10px;
+      left: -10px
+    }
+  </style>
+  <script src="./static/boldsymbol.js" charset="UTF-8"></script>
+  <style id="MJX-CHTML-styles">
+    mjx-container[jax="CHTML"] {
+      line-height: 0;
+    }
+
+    mjx-container [space="1"] {
+      margin-left: .111em;
+    }
+
+    mjx-container [space="2"] {
+      margin-left: .167em;
+    }
+
+    mjx-container [space="3"] {
+      margin-left: .222em;
+    }
+
+    mjx-container [space="4"] {
+      margin-left: .278em;
+    }
+
+    mjx-container [space="5"] {
+      margin-left: .333em;
+    }
+
+    mjx-container [rspace="1"] {
+      margin-right: .111em;
+    }
+
+    mjx-container [rspace="2"] {
+      margin-right: .167em;
+    }
+
+    mjx-container [rspace="3"] {
+      margin-right: .222em;
+    }
+
+    mjx-container [rspace="4"] {
+      margin-right: .278em;
+    }
+
+    mjx-container [rspace="5"] {
+      margin-right: .333em;
+    }
+
+    mjx-container [size="s"] {
+      font-size: 70.7%;
+    }
+
+    mjx-container [size="ss"] {
+      font-size: 50%;
+    }
+
+    mjx-container [size="Tn"] {
+      font-size: 60%;
+    }
+
+    mjx-container [size="sm"] {
+      font-size: 85%;
+    }
+
+    mjx-container [size="lg"] {
+      font-size: 120%;
+    }
+
+    mjx-container [size="Lg"] {
+      font-size: 144%;
+    }
+
+    mjx-container [size="LG"] {
+      font-size: 173%;
+    }
+
+    mjx-container [size="hg"] {
+      font-size: 207%;
+    }
+
+    mjx-container [size="HG"] {
+      font-size: 249%;
+    }
+
+    mjx-container [width="full"] {
+      width: 100%;
+    }
+
+    mjx-box {
+      display: inline-block;
+    }
+
+    mjx-block {
+      display: block;
+    }
+
+    mjx-itable {
+      display: inline-table;
+    }
+
+    mjx-row {
+      display: table-row;
+    }
+
+    mjx-row>* {
+      display: table-cell;
+    }
+
+    mjx-mtext {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-mstyle {
+      display: inline-block;
+    }
+
+    mjx-merror {
+      display: inline-block;
+      color: red;
+      background-color: yellow;
+    }
+
+    mjx-mphantom {
+      visibility: hidden;
+    }
+
+    _::-webkit-full-page-media,
+    _:future,
+    :root mjx-container {
+      will-change: opacity;
+    }
+
+    mjx-assistive-mml {
+      position: absolute !important;
+      top: 0px;
+      left: 0px;
+      clip: rect(1px, 1px, 1px, 1px);
+      padding: 1px 0px 0px 0px !important;
+      border: 0px !important;
+      display: block !important;
+      width: auto !important;
+      overflow: hidden !important;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    mjx-assistive-mml[display="block"] {
+      width: 100% !important;
+    }
+
+    mjx-math {
+      display: inline-block;
+      text-align: left;
+      line-height: 0;
+      text-indent: 0;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 100%;
+      font-size-adjust: none;
+      letter-spacing: normal;
+      border-collapse: collapse;
+      word-wrap: normal;
+      word-spacing: normal;
+      white-space: nowrap;
+      direction: ltr;
+      padding: 1px 0;
+    }
+
+    mjx-container[jax="CHTML"][display="true"] {
+      display: block;
+      text-align: center;
+      margin: 1em 0;
+    }
+
+    mjx-container[jax="CHTML"][display="true"][width="full"] {
+      display: flex;
+    }
+
+    mjx-container[jax="CHTML"][display="true"] mjx-math {
+      padding: 0;
+    }
+
+    mjx-container[jax="CHTML"][justify="left"] {
+      text-align: left;
+    }
+
+    mjx-container[jax="CHTML"][justify="right"] {
+      text-align: right;
+    }
+
+    mjx-mi {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-c {
+      display: inline-block;
+    }
+
+    mjx-utext {
+      display: inline-block;
+      padding: .75em 0 .2em 0;
+    }
+
+    mjx-TeXAtom {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-mover {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-mover:not([limits="false"]) {
+      padding-top: .1em;
+    }
+
+    mjx-mover:not([limits="false"])>* {
+      display: block;
+      text-align: left;
+    }
+
+    mjx-mo {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-stretchy-h {
+      display: inline-table;
+      width: 100%;
+    }
+
+    mjx-stretchy-h>* {
+      display: table-cell;
+      width: 0;
+    }
+
+    mjx-stretchy-h>*>mjx-c {
+      display: inline-block;
+      transform: scalex(1.0000001);
+    }
+
+    mjx-stretchy-h>*>mjx-c::before {
+      display: inline-block;
+      width: initial;
+    }
+
+    mjx-stretchy-h>mjx-ext {
+      /* IE */
+      overflow: hidden;
+      /* others */
+      overflow: clip visible;
+      width: 100%;
+    }
+
+    mjx-stretchy-h>mjx-ext>mjx-c::before {
+      transform: scalex(500);
+    }
+
+    mjx-stretchy-h>mjx-ext>mjx-c {
+      width: 0;
+    }
+
+    mjx-stretchy-h>mjx-beg>mjx-c {
+      margin-right: -.1em;
+    }
+
+    mjx-stretchy-h>mjx-end>mjx-c {
+      margin-left: -.1em;
+    }
+
+    mjx-stretchy-v {
+      display: inline-block;
+    }
+
+    mjx-stretchy-v>* {
+      display: block;
+    }
+
+    mjx-stretchy-v>mjx-beg {
+      height: 0;
+    }
+
+    mjx-stretchy-v>mjx-end>mjx-c {
+      display: block;
+    }
+
+    mjx-stretchy-v>*>mjx-c {
+      transform: scaley(1.0000001);
+      transform-origin: left center;
+      overflow: hidden;
+    }
+
+    mjx-stretchy-v>mjx-ext {
+      display: block;
+      height: 100%;
+      box-sizing: border-box;
+      border: 0px solid transparent;
+      /* IE */
+      overflow: hidden;
+      /* others */
+      overflow: visible clip;
+    }
+
+    mjx-stretchy-v>mjx-ext>mjx-c::before {
+      width: initial;
+      box-sizing: border-box;
+    }
+
+    mjx-stretchy-v>mjx-ext>mjx-c {
+      transform: scaleY(500) translateY(.075em);
+      overflow: visible;
+    }
+
+    mjx-mark {
+      display: inline-block;
+      height: 0px;
+    }
+
+    mjx-msqrt {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-root {
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    mjx-surd {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    mjx-sqrt {
+      display: inline-block;
+      padding-top: .07em;
+    }
+
+    mjx-sqrt>mjx-box {
+      border-top: .07em solid;
+    }
+
+    mjx-sqrt.mjx-tall>mjx-box {
+      padding-left: .3em;
+      margin-left: -.3em;
+    }
+
+    mjx-msup {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-mn {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-msub {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-msubsup {
+      display: inline-block;
+      text-align: left;
+    }
+
+    mjx-script {
+      display: inline-block;
+      padding-right: .05em;
+      padding-left: .033em;
+    }
+
+    mjx-script>mjx-spacer {
+      display: block;
+    }
+
+    mjx-c::before {
+      display: block;
+      width: 0;
+    }
+
+    .MJX-TEX {
+      font-family: MJXZERO, MJXTEX;
+    }
+
+    .TEX-B {
+      font-family: MJXZERO, MJXTEX-B;
+    }
+
+    .TEX-I {
+      font-family: MJXZERO, MJXTEX-I;
+    }
+
+    .TEX-MI {
+      font-family: MJXZERO, MJXTEX-MI;
+    }
+
+    .TEX-BI {
+      font-family: MJXZERO, MJXTEX-BI;
+    }
+
+    .TEX-S1 {
+      font-family: MJXZERO, MJXTEX-S1;
+    }
+
+    .TEX-S2 {
+      font-family: MJXZERO, MJXTEX-S2;
+    }
+
+    .TEX-S3 {
+      font-family: MJXZERO, MJXTEX-S3;
+    }
+
+    .TEX-S4 {
+      font-family: MJXZERO, MJXTEX-S4;
+    }
+
+    .TEX-A {
+      font-family: MJXZERO, MJXTEX-A;
+    }
+
+    .TEX-C {
+      font-family: MJXZERO, MJXTEX-C;
+    }
+
+    .TEX-CB {
+      font-family: MJXZERO, MJXTEX-CB;
+    }
+
+    .TEX-FR {
+      font-family: MJXZERO, MJXTEX-FR;
+    }
+
+    .TEX-FRB {
+      font-family: MJXZERO, MJXTEX-FRB;
+    }
+
+    .TEX-SS {
+      font-family: MJXZERO, MJXTEX-SS;
+    }
+
+    .TEX-SSB {
+      font-family: MJXZERO, MJXTEX-SSB;
+    }
+
+    .TEX-SSI {
+      font-family: MJXZERO, MJXTEX-SSI;
+    }
+
+    .TEX-SC {
+      font-family: MJXZERO, MJXTEX-SC;
+    }
+
+    .TEX-T {
+      font-family: MJXZERO, MJXTEX-T;
+    }
+
+    .TEX-V {
+      font-family: MJXZERO, MJXTEX-V;
+    }
+
+    .TEX-VB {
+      font-family: MJXZERO, MJXTEX-VB;
+    }
+
+    mjx-stretchy-v mjx-c,
+    mjx-stretchy-h mjx-c {
+      font-family: MJXZERO, MJXTEX-S1, MJXTEX-S4, MJXTEX, MJXTEX-A ! important;
+    }
+
+    @font-face
+
+    /* 0 */
+      {
+      font-family: MJXZERO;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Zero.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 1 */
+      {
+      font-family: MJXTEX;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 2 */
+      {
+      font-family: MJXTEX-B;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Bold.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 3 */
+      {
+      font-family: MJXTEX-I;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-Italic.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 4 */
+      {
+      font-family: MJXTEX-MI;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Main-Italic.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 5 */
+      {
+      font-family: MJXTEX-BI;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Math-BoldItalic.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 6 */
+      {
+      font-family: MJXTEX-S1;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size1-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 7 */
+      {
+      font-family: MJXTEX-S2;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size2-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 8 */
+      {
+      font-family: MJXTEX-S3;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size3-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 9 */
+      {
+      font-family: MJXTEX-S4;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Size4-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 10 */
+      {
+      font-family: MJXTEX-A;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_AMS-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 11 */
+      {
+      font-family: MJXTEX-C;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 12 */
+      {
+      font-family: MJXTEX-CB;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Calligraphic-Bold.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 13 */
+      {
+      font-family: MJXTEX-FR;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 14 */
+      {
+      font-family: MJXTEX-FRB;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Fraktur-Bold.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 15 */
+      {
+      font-family: MJXTEX-SS;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 16 */
+      {
+      font-family: MJXTEX-SSB;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Bold.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 17 */
+      {
+      font-family: MJXTEX-SSI;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_SansSerif-Italic.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 18 */
+      {
+      font-family: MJXTEX-SC;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Script-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 19 */
+      {
+      font-family: MJXTEX-T;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Typewriter-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 20 */
+      {
+      font-family: MJXTEX-V;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Regular.woff") format("woff");
+    }
+
+    @font-face
+
+    /* 21 */
+      {
+      font-family: MJXTEX-VB;
+      src: url("https://cdn.jsdelivr.net/npm/mathjax@3/es5/output/chtml/fonts/woff-v2/MathJax_Vector-Bold.woff") format("woff");
+    }
+
+    mjx-c.mjx-c1D705.TEX-I::before {
+      padding: 0.442em 0.576em 0.011em 0;
+      content: "\3BA";
+    }
+
+    mjx-c.mjx-c1D6FF.TEX-I::before {
+      padding: 0.717em 0.444em 0.01em 0;
+      content: "\3B4";
+    }
+
+    mjx-c.mjx-c2DC.TEX-S1::before {
+      padding: 0.722em 0.556em 0 0;
+      content: "\2DC";
+    }
+
+    mjx-c.mjx-c1D442.TEX-I::before {
+      padding: 0.704em 0.763em 0.022em 0;
+      content: "O";
+    }
+
+    mjx-c.mjx-c28::before {
+      padding: 0.75em 0.389em 0.25em 0;
+      content: "(";
+    }
+
+    mjx-c.mjx-c221A::before {
+      padding: 0.8em 0.853em 0.2em 0;
+      content: "\221A";
+    }
+
+    mjx-c.mjx-c1D447.TEX-I::before {
+      padding: 0.677em 0.704em 0 0;
+      content: "T";
+    }
+
+    mjx-c.mjx-c29::before {
+      padding: 0.75em 0.389em 0.25em 0;
+      content: ")";
+    }
+
+    mjx-c.mjx-c1D451.TEX-I::before {
+      padding: 0.694em 0.52em 0.01em 0;
+      content: "d";
+    }
+
+    mjx-c.mjx-c34::before {
+      padding: 0.677em 0.5em 0 0;
+      content: "4";
+    }
+
+    mjx-c.mjx-c1D716.TEX-I::before {
+      padding: 0.431em 0.406em 0.011em 0;
+      content: "\3F5";
+    }
+
+    mjx-c.mjx-c2212::before {
+      padding: 0.583em 0.778em 0.082em 0;
+      content: "\2212";
+    }
+
+    mjx-c.mjx-c32::before {
+      padding: 0.666em 0.5em 0 0;
+      content: "2";
+    }
+
+    mjx-c.mjx-c31::before {
+      padding: 0.666em 0.5em 0 0;
+      content: "1";
+    }
+
+    mjx-c.mjx-c35::before {
+      padding: 0.666em 0.5em 0.022em 0;
+      content: "5";
+    }
+
+    mjx-c.mjx-c2F::before {
+      padding: 0.75em 0.5em 0.25em 0;
+      content: "/";
+    }
+
+    mjx-c.mjx-c33::before {
+      padding: 0.665em 0.5em 0.022em 0;
+      content: "3";
+    }
+
+    mjx-c.mjx-c3A9::before {
+      padding: 0.704em 0.722em 0 0;
+      content: "\3A9";
+    }
+
+    mjx-c.mjx-c1D43E.TEX-I::before {
+      padding: 0.683em 0.889em 0 0;
+      content: "K";
+    }
+
+    mjx-c.mjx-c4F.TEX-C::before {
+      padding: 0.705em 0.796em 0.022em 0;
+      content: "O";
+    }
+
+    mjx-c.mjx-c6C::before {
+      padding: 0.694em 0.278em 0 0;
+      content: "l";
+    }
+
+    mjx-c.mjx-c6F::before {
+      padding: 0.448em 0.5em 0.01em 0;
+      content: "o";
+    }
+
+    mjx-c.mjx-c67::before {
+      padding: 0.453em 0.5em 0.206em 0;
+      content: "g";
+    }
+
+    mjx-c.mjx-c2061::before {
+      padding: 0 0 0 0;
+      content: "";
+    }
+
+    mjx-c.mjx-c22C5::before {
+      padding: 0.31em 0.278em 0 0;
+      content: "\22C5";
+    }
+
+    mjx-c.mjx-c5C::before {
+      padding: 0.75em 0.5em 0.25em 0;
+      content: "\5C";
+    }
+
+    mjx-c.mjx-c69::before {
+      padding: 0.669em 0.278em 0 0;
+      content: "i";
+    }
+
+    mjx-c.mjx-c1D6FC.TEX-I::before {
+      padding: 0.442em 0.64em 0.011em 0;
+      content: "\3B1";
+    }
+
+    mjx-c.mjx-c2208::before {
+      padding: 0.54em 0.667em 0.04em 0;
+      content: "\2208";
+    }
+
+    mjx-c.mjx-c1D450.TEX-I::before {
+      padding: 0.442em 0.433em 0.011em 0;
+      content: "c";
+    }
+
+    mjx-c.mjx-c3E::before {
+      padding: 0.54em 0.778em 0.04em 0;
+      content: ">";
+    }
+
+    mjx-c.mjx-c30::before {
+      padding: 0.666em 0.5em 0.022em 0;
+      content: "0";
+    }
+
+    mjx-c.mjx-c2016::before {
+      padding: 0.75em 0.5em 0.25em 0;
+      content: "\2225";
+    }
+
+    mjx-c.mjx-c2207::before {
+      padding: 0.683em 0.833em 0.033em 0;
+      content: "\2207";
+    }
+
+    mjx-c.mjx-c1D43D.TEX-I::before {
+      padding: 0.683em 0.633em 0.022em 0;
+      content: "J";
+    }
+
+    mjx-c.mjx-c1D703.TEX-I::before {
+      padding: 0.705em 0.469em 0.01em 0;
+      content: "\3B8";
+    }
+
+    mjx-c.mjx-c2264::before {
+      padding: 0.636em 0.778em 0.138em 0;
+      content: "\2264";
+    }
+
+    mjx-c.mjx-c2E::before {
+      padding: 0.12em 0.278em 0 0;
+      content: ".";
+    }
+
+    mjx-c.mjx-c53::before {
+      padding: 0.705em 0.556em 0.022em 0;
+      content: "S";
+    }
+
+    mjx-c.mjx-c4E::before {
+      padding: 0.683em 0.75em 0 0;
+      content: "N";
+    }
+
+    mjx-c.mjx-c56::before {
+      padding: 0.683em 0.75em 0.022em 0;
+      content: "V";
+    }
+
+    mjx-c.mjx-c52::before {
+      padding: 0.683em 0.736em 0.022em 0;
+      content: "R";
+    }
+
+    mjx-c.mjx-c47::before {
+      padding: 0.705em 0.785em 0.022em 0;
+      content: "G";
+    }
+
+    mjx-c.mjx-c2B::before {
+      padding: 0.583em 0.778em 0.082em 0;
+      content: "+";
+    }
+
+    mjx-c.mjx-c65::before {
+      padding: 0.448em 0.444em 0.011em 0;
+      content: "e";
+    }
+
+    mjx-c.mjx-c6E::before {
+      padding: 0.442em 0.556em 0 0;
+      content: "n";
+    }
+
+    mjx-c.mjx-c66::before {
+      padding: 0.705em 0.372em 0 0;
+      content: "f";
+    }
+
+    mjx-c.mjx-c74::before {
+      padding: 0.615em 0.389em 0.01em 0;
+      content: "t";
+    }
+
+    mjx-c.mjx-c7E::before {
+      padding: 0.318em 0.5em 0 0;
+      content: "~";
+    }
+
+    mjx-c.mjx-c1D45B.TEX-I::before {
+      padding: 0.442em 0.6em 0.011em 0;
+      content: "n";
+    }
+
+    mjx-c.mjx-c1D43B.TEX-I::before {
+      padding: 0.683em 0.888em 0 0;
+      content: "H";
+    }
+
+    mjx-c.mjx-c37::before {
+      padding: 0.676em 0.5em 0.022em 0;
+      content: "7";
+    }
+
+    mjx-c.mjx-c2C::before {
+      padding: 0.121em 0.278em 0.194em 0;
+      content: ",";
+    }
+
+    mjx-c.mjx-c1D73D.TEX-BI::before {
+      padding: 0.702em 0.562em 0.008em 0;
+      content: "\3B8";
+    }
+
+    mjx-c.mjx-c36::before {
+      padding: 0.666em 0.5em 0.022em 0;
+      content: "6";
+    }
+
+    mjx-c.mjx-c28.TEX-S1::before {
+      padding: 0.85em 0.458em 0.349em 0;
+      content: "(";
+    }
+
+    mjx-c.mjx-c29.TEX-S1::before {
+      padding: 0.85em 0.458em 0.349em 0;
+      content: ")";
+    }
+
+    mjx-c.mjx-c78::before {
+      padding: 0.431em 0.528em 0 0;
+      content: "x";
+    }
+
+    mjx-c.mjx-c70::before {
+      padding: 0.442em 0.556em 0.194em 0;
+      content: "p";
+    }
+
+    mjx-c.mjx-c1D6FE.TEX-I::before {
+      padding: 0.441em 0.543em 0.216em 0;
+      content: "\3B3";
+    }
+
+    mjx-c.mjx-c1D44E.TEX-I::before {
+      padding: 0.441em 0.529em 0.01em 0;
+      content: "a";
+    }
+
+    mjx-c.mjx-c1D459.TEX-I::before {
+      padding: 0.694em 0.298em 0.011em 0;
+      content: "l";
+    }
+
+    mjx-c.mjx-c1D45A.TEX-I::before {
+      padding: 0.442em 0.878em 0.011em 0;
+      content: "m";
+    }
+
+    mjx-c.mjx-c1D45C.TEX-I::before {
+      padding: 0.441em 0.485em 0.011em 0;
+      content: "o";
+    }
+
+    mjx-c.mjx-c1D460.TEX-I::before {
+      padding: 0.442em 0.469em 0.01em 0;
+      content: "s";
+    }
+
+    mjx-c.mjx-c1D461.TEX-I::before {
+      padding: 0.626em 0.361em 0.011em 0;
+      content: "t";
+    }
+
+    mjx-c.mjx-c20::before {
+      padding: 0 0.25em 0 0;
+      content: " ";
+    }
+
+    mjx-c.mjx-c1D456.TEX-I::before {
+      padding: 0.661em 0.345em 0.011em 0;
+      content: "i";
+    }
+
+    mjx-c.mjx-c1D467.TEX-I::before {
+      padding: 0.442em 0.465em 0.011em 0;
+      content: "z";
+    }
+
+    mjx-c.mjx-c1D452.TEX-I::before {
+      padding: 0.442em 0.466em 0.011em 0;
+      content: "e";
+    }
+
+    mjx-c.mjx-c1D45F.TEX-I::before {
+      padding: 0.442em 0.451em 0.011em 0;
+      content: "r";
+    }
+
+    mjx-c.mjx-c1D706.TEX-I::before {
+      padding: 0.694em 0.583em 0.012em 0;
+      content: "\3BB";
+    }
+
+    mjx-c.mjx-c1D439.TEX-I::before {
+      padding: 0.68em 0.749em 0 0;
+      content: "F";
+    }
+
+    mjx-c.mjx-c1D431.TEX-B::before {
+      padding: 0.444em 0.607em 0 0;
+      content: "x";
+    }
+
+    mjx-c.mjx-c2227::before {
+      padding: 0.598em 0.667em 0.022em 0;
+      content: "\2227";
+    }
+
+    mjx-c.mjx-c1D453.TEX-I::before {
+      padding: 0.705em 0.55em 0.205em 0;
+      content: "f";
+    }
+
+    mjx-c.mjx-c6D::before {
+      padding: 0.442em 0.833em 0 0;
+      content: "m";
+    }
+
+    mjx-c.mjx-c2265::before {
+      padding: 0.636em 0.778em 0.138em 0;
+      content: "\2265";
+    }
+  </style>
+</head>
+
+
+
+
+<body>
+  	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+		<a class="nav-link"><b>
+				<font size="+3" color="black" face="AREIAL,sans-serif"><big>Aishan Liu (刘艾杉)</big></font>
+			</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">
+						<font size="5">&nbsp;&nbsp;&nbsp;Home</font>
+					</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="./publication.html">
+						<font size="5">&nbsp;&nbsp;&nbsp;Publications</font>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./opensource.html">
+						<font size="5">&nbsp;&nbsp;&nbsp;OpenSources</font>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./service.html">
+						<font size="5">&nbsp;&nbsp;&nbsp;Services</font>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+  <div class="container">
+
+    <p></p>
+    <h5>SELECTED PUBLICATIONS</h5>
+    <p>Full publication list can be found on <a href="https://scholar.google.com/citations?user=88tzr_sAAAAJ&hl=zh-CN&oi=ao"
+        target="_blank">Google Scholar</a>.
+      * indicates equal contribution and &spades; indicates corresponding author.
+    </p>
+    <p></p>
+    <ul>
+
+<p><h4>Books</h4>
+
+
+		<li><span class="paper-title">Chapter: Deepfake in Metaverse
+         </span> <br>
+        Wenbo Zhou, <strong>Aishan Liu</strong>, Cihang Xie, Nenghai Yu<br>
+        <span class="publisher">Handbook of Metaverse, Springer, 2023. (To Appear)</span><br>
+        [<a href="#">Books</a>]
+             </li><br>
+			 
+			 
+	      <li><span class="paper-title">Chapter 8: Explainable Artificial Intelligence in Computer Vision
+         </span> <br>
+        <strong>Aishan Liu</strong>, Xianglong Liu, Dacheng Tao<br>
+        <span class="publisher">Introduction to Explainable Artificial Intelligence (<b>可解释人工智能导论</b>), 电子工业出版社, 2022.</span><br>
+        [<a href="https://item.jd.com/13700578.html">Books</a>]
+             </li><br>
+
+
+
+<p><h4>2024</h4>	
+
+		<li><span class="paper-title">GenderCARE: A Comprehensive Framework for Assessing and Reducing Gender Bias in Large Language Models
+         </span> <br>
+        Kunsheng Tang, Wenbo Zhou, Jie Zhang <strong>Aishan Liu</strong>, Gelei Deng, Shuai Li, Peigui Qi, Weiming Zhang, Tianwei Zhang, NengHai Yu<br>
+        <span class="publisher">ACM Conference on Computer and Communications Security (<b>ACM CCS</b>), 2024.</span><br>
+        [<a href="#">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Hierarchical Perceptual Noise Injection for Social Media Fingerprint Privacy Protection
+         </span> <br>
+        Simin Li, Huangxinxin Xu, Jiakai Wang, Ruixiao Xu, <strong>Aishan Liu<sup>&spades;</sup></strong>, Fazhi He<sup>&spades;</sup>, Xianglong Liu, and Dacheng Tao<br>
+        <span class="publisher">IEEE Transactions on Image Processing (<b>IEEE TIP</b>), 2024.</span><br>
+        [<a href="https://arxiv.org/abs/2208.10688">Paper</a>] [<a href="https://github.com/nlsde-safety-team/FingerSafe">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">BadCLIP: Dual-Embedding Guided Backdoor Attack on Multimodal Contrastive Learning
+         </span> <br>
+        Siyuan Liang, Mingli Zhu, <strong>Aishan Liu<sup>&spades;</sup></strong>, Baoyuan Wu, Xiaochun Cao, Ee-Chien Chang<sup>&spades;</sup> <br>        
+		<span class="publisher">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024.</span><br>
+        [<a href="https://arxiv.org/abs/2311.12075">Paper</a>] [<a href=#>Code</a>] 
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">Poisoned Forgery Face: Towards Backdoor Attacks on Face Forgery Detection
+         </span> <br>
+        Jiawei Liang, Siyuan Liang, <strong>Aishan Liu</strong>, Xiaojun Jia, Junhao Kuang, Xiaochun Cao<br>        
+		<span class="publisher">International Conference on Learning Representations (<b>ICLR</b>), 2024.</span><br>
+        [<a href="https://arxiv.org/abs/2402.11473">Paper</a>] [<a href=#>Code</a>] (<i>Spotlight</i>)
+             </li><br>
+			 
+		<li><span class="paper-title">Byzantine Robust Cooperative Multi-Agent Reinforcement Learning as a Bayesian Game
+         </span> <br>
+        Simin Li, Jun Guo, Jingqiao Xiu, Ruixiao Xu, Xin Yu, Jiakai Wang, <strong>Aishan Liu</strong>, Yaodong Yang, Xianglong Liu<br>        
+		<span class="publisher">International Conference on Learning Representations (<b>ICLR</b>), 2024.</span><br>
+        [<a href=#>Paper</a>] [<a href=#>Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Improving Deepfake Detection Generalization by Invariant Risk Minimization
+         </span> <br>
+        Zixin Yin, Jiakai Wang, Yisong Xiao, Hanqing Zhao, Tianlin Li, Wenbo Zhou, <strong>Aishan Liu<sup>&spades;</sup></strong>, Xianglong Liu<sup>&spades;</sup><br>        
+		<span class="publisher">IEEE Transactions on Multimedia (<b>IEEE TMM</b>), 2024.</span><br>
+        [<a href="https://ieeexplore.ieee.org/document/10409578/">Paper</a>] [<a href=#>Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Transferable Multimodal Attack on Vision-Language Pre-training Models
+         </span> <br>
+        Haodi Wang, Jiakai Wang, Kai Dong, Zhilei Zhu, Haotong Qin, Xiaolin Fang, <strong>Aishan Liu</strong>, Xianglong Liu<br>        
+		<span class="publisher">IEEE Symposium on Security and Privacy (<b>IEEE S&amp;P</b>), 2024.</span><br>
+        [<a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a102/1Ub239H4xyg">Paper</a>] [<a href=#>Code</a>]
+             </li><br>
+			 
+			 
+
+<p><h4>2023</h4>	
+
+		<li><span class="paper-title">RUNNER: Responsible UNfair NEuron Repair for Enhancing Deep Neural Network Fairness
+         </span> <br>
+        Tianlin Li, Yue Cao, Jian Zhang, Shiqian Zhao, Yihao Huang, <strong>Aishan Liu</strong>, Qing Guo, Yang Liu<br>        
+		<span class="publisher">International Conference on Software Engineering (<b>ICSE</b>), 2024.</span><br>
+        [<a href=#>Paper</a>] [<a href=#>Code</a>] 
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">Towards Defending Multiple Lp-norm Bounded Adversarial Perturbations via Gated Batch Normalization
+         </span> <br>
+        <strong>Aishan Liu</strong>, Shiyu Tang, Xinyun Chen, Lei Huang, Haotong Qin, Xianglong Liu, Dacheng Tao<br>        
+		<span class="publisher">International Journal of Computer Vision (<b>IJCV</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2012.01654">Paper</a>] [<a href="https://github.com/liuaishan/GBN">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">RobustMQ: Benchmarking Robustness of Quantized Models
+         </span> <br>
+        Yisong Xiao, <strong>Aishan Liu<sup>&spades;</sup></strong>, Tianyuan Zhang, Haotong Qin, Jinyang Guo, Xianglong Liu<sup>&spades;</sup><br>        
+		<span class="publisher">Visual Intelligence (<b>VIN</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/abs/2308.02350">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Isolation and Induction: Training Robust Deep Neural Networks against Model Stealing Attacks
+         </span> <br>
+        Jun Guo, <strong>Aishan Liu<sup>&spades;</sup></strong>, Xingyu Zheng, Siyuan Liang, Yisong Xiao, Yichao Wu, Xianglong Liu<br>   
+		<span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2308.00958.pdf">Paper</a>] [<a href="https://github.com/DIG-Beihang/InI-Model-Stealing-Defense">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Face Encryption via Frequency-Restricted Identity-Agnostic Attacks
+         </span> <br>
+        Xin Dong, Rui Wang, Siyuan Liang, <strong>Aishan Liu</strong>, Lihua Jing<br>   
+		<span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2308.05983.pdf">Paper</a>] [<a href="https://github.com/XinDong10/FRIA">Code</a>] (<i>Oral</i>)
+             </li><br>
+			 
+		<li><span class="paper-title">Exploring Inconsistent Knowledge Distillation for Object Detection with Data Augmentation
+         </span> <br>
+        Jiawei Liang, Siyuan Liang<sup>&spades;</sup>, <strong>Aishan Liu<sup>&spades;</sup></strong>, Ke Ma, Jingzhi Li, Xiaochun Cao<br>   
+		<span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2209.09841.pdf">Paper</a>] [<a href="https://github.com/JWLiang007/IKD">Code</a>] (<i>Oral</i>)
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">Faire: Repairing Fairness of Neural Networks via Neuron Condition Synthesis
+         </span> <br>
+        Tianlin Li, Xiaofei Xie, Jian Wang, Qing Guo <strong>Aishan Liu</strong>, Lei Ma, Yang Liu<br>        
+		<span class="publisher">ACM Transactions on Software Engineering and Methodology (<b>TOSEM</b>), 2023.</span><br>
+        [<a href="#">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+			 
+
+		<li><span class="paper-title">Latent Imitator: Generating Natural Individual Discriminatory Instances for Black-Box Fairness Testing
+         </span> <br>
+        Yisong Xiao, <strong>Aishan Liu<sup>&spades;</sup></strong>, Tianlin Li, Xianglong Liu<sup>&spades;</sup><br>        
+		<span class="publisher">ACM SIGSOFT International Symposium on Software Testing and Analysis (<b>ISSTA</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2305.11602.pdf">Paper</a>] [<a href="https://sites.google.com/view/latent-imitator--anonymous/home">Code</a>]
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">FAIRER: Fairness As Decision Rational Alignment
+         </span> <br>
+        Tianlin Li, Qing Guo, <strong> Aishan Liu</strong>, Mengnan Du, Zhiming Li, Yang Liu<br>        
+		<span class="publisher">International Conference on Machine Learning (<b>ICML</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2306.15299">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">Fairness via Group Contribution Matching
+         </span> <br>
+        Tianlin Li, Zhiming Li, Anran Li, Mengnan Du, <strong> Aishan Liu</strong>, Qing Guo, Guozhu Meng, Yang Liu<br>        
+		<span class="publisher">International Joint Conference on Artificial Intelligence (<b>IJCAI</b>), 2023.</span><br>
+        [<a href="#">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+			 
+			 
+      <li><span class="paper-title">Exploring the Relationship between Architectural Design and Adversarially Robust Generalization
+         </span> <br>
+        <strong>Aishan Liu*</strong>, Shiyu Tang*, Siyuan Liang*, Ruihao Gong, Boxi Wu, Xianglong Liu, Dacheng Tao<br>
+        <span class="publisher">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2209.14105.pdf">Paper</a>] [<a href="http://robust.art/">Code</a>]
+             </li><br>
+			 
+	  <li><span class="paper-title">Towards Benchmarking and Assessing Visual Naturalness of Physical World Adversarial Attacks
+         </span> <br>
+        Simin Li, Shuning Zhang, Gujun Chen, Dong Wang, Pu Feng, Jiakai Wang, <strong>Aishan Liu</strong>, Xin Yi, Xianglong Liu<br>
+        <span class="publisher">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2305.12863">Paper</a>]
+             </li><br>
+			 
+	  <li><span class="paper-title">SysNoise: Exploring and Benchmarking Training-Deployment System Inconsistency
+         </span> <br>
+        Yan Wang*, Yuhang Li*, Ruihao Gong*, <strong>Aishan Liu*</strong>, Yanfei Wang, Jian Hu, Yongqiang Yao, Yunchen Zhang, Tianzi Xiao, Fengwei Yu, Xianglong Liu<br>
+        <span class="publisher">Conference on Machine Learning and Systems (<b>MLSys</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2307.00280.pdf">Paper</a>] [<a href="https://modeltc.github.io/systemnoise_web">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection
+         </span> <br>
+        <strong>Aishan Liu*</strong>, Jun Guo*, Jiakai Wang, Siyuan Liang, Renshuai Tao, Wenbo Zhou, Cong Liu, Xianglong Liu, Dacheng Tao<br>
+        <span class="publisher">USENIX Security Symposium (<b>USENIX Security</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/abs/2302.09491">Paper</a>] [<a href="https://github.com/DIG-Beihang/X-adv">Code</a>]
+             </li><br>
+		
+		
+		<li><span class="paper-title">A Comprehensive Evaluation Framework for Deep Model Robustness
+         </span> <br>
+        Jun Guo, Wei Bao, Jiakai Wang, Yuqing Ma, Xinghai Gao, Gang Xiao, <strong>Aishan Liu<sup>&spades;</sup></strong>, Jian Dong, Xianglong Liu, Wenjun Wu<br>
+        <span class="publisher">Pattern Recognition (<b>PR</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/pdf/2101.09617.pdf">Paper</a>] [<a href="https://github.com/DIG-Beihang/AISafety">Code</a>]
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">Improving Robust Fairness via Balance Adversarial Training
+         </span> <br>
+        Chunyu Sun, Chenye Xu, Chengyuan Yao, Siyuan Liang, Yichao Wu, Ding Liang, XiangLong Liu, <strong>Aishan Liu<sup>&spades;</sup></strong><br>
+        <span class="publisher">AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2023.</span><br>
+        [<a href="https://arxiv.org/abs/2209.07534">Paper</a>] [<a href="https://github.com/silvercherry/Improving-Robust-Fairness-via-Balance-Adversarial-Training">Code</a>]
+             </li><br>			 
+			 
+
+
+<p><h4>2022</h4>	
+
+		<li><span class="paper-title">面向深度强化学习的对抗攻防综述
+         </span> <br>
+        <strong>Aishan Liu</strong>, Jun Guo, Simin Li, Yisong Xiao, Xianglong Liu, Dacheng Tao<br>
+        <span class="publisher">计算机学报 (<b>Chinese Journal of Computers</b>), 2022.</span><br>
+        [<a href="http://cjc.ict.ac.cn/online/bfpub/las-2023223140341.pdf">Paper</a>]
+             </li><br>
+		
+		<li><span class="paper-title">智能系统全生命周期安全测试理论与方法
+         </span> <br>
+        Jiakai Wang，<strong>Aishan Liu</strong>，Simin Li，Xianglong Liu, Wenjun Wu<br>
+        <span class="publisher">智能安全 (<b>Artificial Intelligence Security</b>), 2022.</span><br>
+        [<a href="#">Paper</a>]
+             </li><br>
+			  
+			 
+		<li><span class="paper-title">Temporal Speciation Network for Few-Shot Object Detection
+         </span> <br>
+        Xiaowei Zhao, Xianglong Liu, Yuqing Ma, Shihao Bai, Yifan Shen, Zeyu Hao, <strong>Aishan Liu</strong><br>
+        <span class="publisher">IEEE Transactions on Multimedia (<b>IEEE TMM</b>), 2022.</span><br>
+        [<a href="https://ieeexplore.ieee.org/document/9462815">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+
+			 
+		<li><span class="paper-title">Harnessing Perceptual Adversarial Patches for Crowd Counting
+         </span> <br>
+        Shunchang Liu, Jiakai Wang, <strong>Aishan Liu<sup>&spades;</sup></strong>, Yingwei Li, Yijie Gao, Xianglong Liu, Dacheng Tao<br>
+        <span class="publisher">ACM Conference on Computer and Communications Security (<b>ACM CCS</b>), 2022.</span><br>
+        [<a href="https://arxiv.org/pdf/2109.07986v1.pdf">Paper</a>] [<a href="https://github.com/shunchang-liu/PAP-Pytorch">Code</a>]
+             </li><br>
+ 
+		<li><span class="paper-title">Region-wise Generative Adversarial Image Inpainting for Large Missing Areas
+         </span> <br>
+        Yuqing Ma, Xianglong Liu, Shihao Bai, <strong>Aishan Liu</strong>, Dacheng Tao, Edwin Hancock<br>
+        <span class="publisher">IEEE Transactions on Cybernetics (<b>IEEE TCYB</b>), 2022.</span><br>
+        [<a href="https://ieeexplore.ieee.org/abstract/document/9861336">Paper</a>] [<a href="#">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Generating Transferable Adversarial Examples against Vision Transformers
+         </span> <br>
+        Yuxuan Wang, Jiakai Wang, Zixin Yin, Ruihao Gong, Jingyi Wang, <strong>Aishan Liu</strong>, Xianglong Liu<br>
+        <span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2022.</span><br>
+        [<a href="https://dl.acm.org/doi/10.1145/3503161.3547989">Paper</a>] [<a href="https://github.com/nlsde-safety-team/ATA">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Imitated Detectors: Stealing Knowledge of Black-box Object Detectors
+         </span> <br>
+        Siyuan Liang, <strong>Aishan Liu</strong>, Jiawei Liang, Longkang Li, Yang Bai, Xiaochun Cao<br>
+        <span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2022.</span><br>
+        [<a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548416">Paper</a>] [<a href="https://github.com/LiangSiyuan21/Imitated-Detectors">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Few-shot X-ray Prohibited Item Detection: A Benchmark and Weak-feature Enhancement Network
+         </span> <br>
+        Renshuai Tao, tianbo Wang, Ziyang Wu, Cong Liu, <strong>Aishan Liu</strong>, Xianglong Liu<br>
+        <span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2022.</span><br>
+        [<a href="https://arxiv.org/pdf/2109.07986v1.pdf">Paper</a>] [<a href="https://github.com/shunchang-liu/PAP-Pytorch">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Defensive Patches for Robust Recognition in the Physical World
+         </span> <br>
+        Jiakai Wang, Zixin Yin, Pengfei Hu, Renshuai Tao, Haotong Qin, Xianglong Liu, Dacheng Tao, <strong>Aishan Liu</strong><br>
+        <span class="publisher">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022.</span><br>
+        [<a href="https://arxiv.org/abs/2204.06213">Paper</a>] [<a href="https://github.com/nlsde-safety-team/DefensivePatch">Code</a>]
+             </li><br>
+
+		<li><span class="paper-title">Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network
+         </span> <br>
+        Renshuai Tao, Hainan Li, Tianbo Wang, Yanlu Wei, Yifu Ding, Bowei Jin, Hongping Zhi, Xianglong Liu, <strong>Aishan Liu</strong><br>
+        <span class="publisher">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022.</span><br>
+        [<a href="https://arxiv.org/pdf/2108.10515.pdf">Paper</a>]
+             </li><br>
+		
+		<li><span class="paper-title">Revisiting Audio Visual Scene-Aware Dialog
+         </span> <br>
+        <strong>Aishan Liu</strong>, Huiyuan Xie, Xianglong Liu, Zixin Yin, Shunchang Liu<br>
+        <span class="publisher">NeuroComputing, 2022.</span><br>
+        [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0925231222001783">Paper</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">BIBERT: Accurate Fully Binarized BERT
+         </span> <br>
+        Haotong Qin, Yifu Ding, Mingyuan Zhang, Qinghua Yan, <strong>Aishan Liu</strong>, Qingqing Dang, Ziwei Liu, Xianglong Liu<br>
+        <span class="publisher">International Conference on Learning Representations (<b>ICLR</b>), 2022.</span><br>
+        [<a href="https://openreview.net/pdf?id=5xEgrl_5FAJ">Paper</a>] [<a href="https://github.com/htqin/BiBERT">Code</a>]
+             </li><br>
+			 
+ <p><h4>2019-2021</h4>
+ 
+ 
+		<li><span class="paper-title">Universal Adversarial Patch Attack for Automatic Checkout using Perceptual and Attentional Bias
+         </span> <br>
+        Jiakai Wang*, <strong>Aishan Liu*</strong>,  Xiao Bai, Xianglong Liu <br>
+        <span class="publisher">IEEE Transactions on Image Processing (<b>IEEE TIP</b>), 2021.</span><br>
+        [<a href="https://ieeexplore.ieee.org/document/9462815">Paper</a>] [<a href="https://github.com/nlsde-safety-team/PerceptualAttentionalBiasedAttack">Code</a>]
+             </li><br>
+		
+		<li><span class="paper-title">Progressive Diversified Augmentation for General Robustness of DNNs: A Unified Approach
+         </span> <br>
+        Hang Yu, <strong>Aishan Liu<sup>&spades;</sup></strong>,  Gengchao Li, Jichen Yang, Chongzhi Zhang<br>
+        <span class="publisher">IEEE Transactions on Image Processing (<b>IEEE TIP</b>), 2021.</span><br>
+        [<a href="https://ieeexplore.ieee.org/document/9462815">Paper</a>] [<a href="https://github.com/DIG-Beihang/AISafety">Code</a>]
+             </li><br>
+			 
+			 
+		<li><span class="paper-title">ARShoe: Real-Time Augmented Reality Shoe Try-on System on Smartphones
+         </span> <br>
+        Shan An, Guangfu Che, Jinghao Guo, Haogang Zhu, Junjie Ye, Fangru Zhou, Zhaoqi Zhu, Dong Wei, <strong>Aishan Liu</strong>, Wei Zhang<br>
+        <span class="publisher">ACM Multimedia (<b>ACM MM</b>), 2021.</span><br>
+        [<a href="https://arxiv.org/pdf/2108.10515.pdf">Paper</a>]
+             </li><br>
+		
+		<li><span class="paper-title">On the Guaranteed Almost Equivalence Between Imitation Learning From Observation and Demonstration
+         </span> <br>
+        Zhihao Cheng, Liu Liu, <strong>Aishan Liu</strong>, Hao Sun, Meng Fang, Dacheng Tao<br>
+        <span class="publisher">IEEE Transactions on Neural Networks and Learning Systems (<b>IEEE TNNLS</b>), 2021.</span><br>
+        [<a href="https://ieeexplore.ieee.org/document/9509344">Paper</a>]
+             </li><br>
+
+		<li><span class="paper-title">Training Robust Deep Neural Networks via Adversarial Noise Propagation
+         </span> <br>
+        <strong>Aishan Liu</strong>, Xianglong Liu, Hang Yu, Chongzhi Zhang, Qiang Liu, Dacheng Tao<br>
+        <span class="publisher">IEEE Transactions on Image Processing (<b>IEEE TIP</b>), 2021.</span><br>
+        [<a href="https://ieeexplore.ieee.org/document/9462815">Paper</a>] [<a href="https://github.com/DIG-Beihang/AISafety">Code</a>]
+             </li><br>
+			 	 
+		<li><span class="paper-title">Dual Attention Suppression Attack: Generate Adversarial Camouflage in Physical World
+         </span> <br>
+        Jiakai Wang, <strong>Aishan Liu</strong>, Zixin Yin, Shunchang Liu, Shiyu Tang, Xianglong Liu<br>
+        <span class="publisher">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2021.</span><br>
+        [<a href="https://arxiv.org/pdf/2103.01050.pdf">Paper</a>] [<a href="https://github.com/nlsde-safety-team/DualAttentionAttack">Code</a>] (<i>Oral</i>)
+             </li><br>
+		
+		<li><span class="paper-title">Interpreting and Improving Adversarial Robustness of Deep Neural Networks with Neuron Sensitivity
+         </span> <br>
+        Chongzhi Zhang*, <strong>Aishan Liu*</strong>, Xianglong Liu, Yitao Xu, Hang Yu, Yuqing Ma, Tianlin Li<br>
+        <span class="publisher">IEEE Transactions on Image Processing (<b>IEEE TIP</b>), 2020.</span><br>
+        [<a href="https://arxiv.org/pdf/1909.06978.pdf">Paper</a>] [<a href="https://github.com/DIG-Beihang/AISafety">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Spatiotemporal Attacks for Embodied Agents
+         </span> <br>
+        <strong>Aishan Liu</strong>, Tairan Huang, Xianglong Liu, Yitao Xu, Yuqing Ma, Xinyun Chen, Stephen Maybank, Dacheng Tao<br>
+        <span class="publisher">European Conference on Computer Vision (<b>ECCV</b>), 2020.</span><br>
+        [<a href="https://arxiv.org/pdf/2005.09161.pdf">Paper</a>] [<a href="https://github.com/liuaishan/SpatiotemporalAttack">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Bias-based Universal Adversarial Patch Attack for Automatic Check-out
+         </span> <br>
+        <strong>Aishan Liu</strong>, Jiakai Wang, Xianglong Liu, Bowen Cao, Chongzhi Zhang, Hang Yu<br>
+        <span class="publisher">European Conference on Computer Vision (<b>ECCV</b>), 2020.</span><br>
+        [<a href="https://arxiv.org/pdf/2005.09257.pdf">Paper</a>] [<a href="https://github.com/liuaishan/ModelBiasedAttack">Code</a>]
+             </li><br>
+		
+		<li><span class="paper-title">Understanding Adversarial Robustness via Critical Attacking Route
+         </span> <br>
+        Tianlin Li*, <strong>Aishan Liu*</strong>, Xianglong Liu, Yitao Xu, Chongzhi Zhang, Xiaofei Xie<br>
+        <span class="publisher">Information Sciences (<b>INS</b>), 2020.</span><br>
+        [<a href="https://doi.org/10.1016/j.ins.2020.08.043">Paper</a>] [<a href="https://github.com/DIG-Beihang/AISafety">Code</a>]
+             </li><br>
+		
+		<li><span class="paper-title">人工智能安全与评测
+         </span> <br>
+        <strong>刘艾杉</strong>, 王嘉凯, 刘祥龙<br>
+        <span class="publisher">人工智能 (<b>AI-View</b>), 2020.</span><br>
+        [<a href="http://www.cesi.ac.cn/202007/6566.html">Paper</a>]
+             </li><br>
+
+		<li><span class="paper-title">人工智能机器学习模型及系统的质量要素和测试方法
+         </span> <br>
+        王嘉凯, <strong>刘艾杉</strong>, 刘祥龙<br>
+        <span class="publisher">信息技术与标准化, 2020.</span><br>
+        [<a href="http://www.cesi.ac.cn/202007/6566.html">Paper</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Few-shot Visual Learning with Contextual Memory and Fine-grained Calibration
+         </span> <br>
+        Yuqing Ma, Shihao Bai, Wei Liu, Qingyu Zhang, <strong> Aishan Liu </strong>, Weimin Chen, Xianglong Liu<br>
+        <span class="publisher">International Joint Conference on Artificial Intelligence (<b>IJCAI</b>), 2020.</span><br>
+        [<a href="https://www.ijcai.org/Proceedings/2020/0113.pdf">Paper</a>] 
+             </li><br>
+			 
+		<li><span class="paper-title">Transductive Relation-Propagation Network for Few-shot Learning
+         </span> <br>
+        Yuqing Ma, Xianglong Liu, Shihao Bai, Lei Wang, Dailan He, <strong> Aishan Liu</strong><br>        
+		<span class="publisher">International Joint Conference on Artificial Intelligence (<b>IJCAI</b>), 2020.</span><br>
+        [<a href="https://www.ijcai.org/Proceedings/2020/0112.pdf">Paper</a>] [<a href="https://github.com/vickyFox/TRPN">Code</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Coarse-to-Fine Image Inpainting via Region-wise Convolutions and Non-Local Correlation
+         </span> <br>
+        Haotong Qin, Yifu Ding, Mingyuan Zhang, Qinghua Yan, <strong>Aishan Liu</strong>, Qingqing Dang, Ziwei Liu, Xianglong Liu<br>
+        <span class="publisher">International Joint Conference on Artificial Intelligence (<b>IJCAI</b>), 2019.</span><br>
+        [<a href="https://www.ijcai.org/Proceedings/2019/433">Paper</a>]
+             </li><br>
+			 
+		<li><span class="paper-title">Perceptual Sensitive GAN for Generating Adversarial Patches
+         </span> <br>
+        <strong>Aishan Liu</strong>, Xianglong Liu, Jiaxin Fan, Yuqing Ma, Anlan Zhang, Huiyuan Xie and Dacheng Tao<br>
+        <span class="publisher">AAAI Conference on Artificial Intelligence (<b>AAAI</b>), 2019.</span><br>
+        [<a href="https://ojs.aaai.org//index.php/AAAI/article/view/3893">Paper</a>] (<i>Spotlight</i>)
+             </li><br>
+			 
+    
+
+  </div>
+  <br>
+  <div style="display:none;width:300px;">
+    <div style="position: relative; padding-top: 50%;"><iframe
+        style="background: transparent !important; position: absolute; left: 0px; top: 0px; height: 100%; width: 100%;"
+        scrolling="no" frameborder="0" allowtransparency="true" src="./static/a2.html"></iframe></div>
+    <script type="text/javascript" src="./static/7.js" async="async"></script>
+  </div>
+
+
+
+</body>
+
+</html>
